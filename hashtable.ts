@@ -57,4 +57,12 @@ class HashTable<T> {
 		}
 		return null as IHashItem<T>;
 	}
+
+	print(): void {
+		for (let item of this._data){
+			console.log(item);
+		}
+	}
 }
+
+var t = new HashTable<string>(16);
