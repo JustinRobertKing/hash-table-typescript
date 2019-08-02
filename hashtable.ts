@@ -66,3 +66,9 @@ class HashTable<T> {
 }
 
 var t = new HashTable<string>(16);
+t.insert('Gavin', 'This is Gavin\'s string')
+t.insert('Carlo', 'This is Carlo\'s string')
+t.insert('Michael', 'This is Mike\'s string')
+t.insert('Steven', 'This is Steve\'s string')
+t.insert('Garrett', 'Garrrrrrrettttttttt')
+t.insert('Justin', 'Steve\'s a turd')
